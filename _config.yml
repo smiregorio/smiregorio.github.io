@@ -299,7 +299,7 @@ defaults:
   # _partfolio
   - scope:
       path: ""
-      type: portfolio
+      type: partfolio
     values:
       layout: single
       author_profile: true
@@ -308,7 +308,7 @@ defaults:
   # _trafficking
   - scope:
       path: ""
-      type: portfolio
+      type: trafficking
     values:
       layout: single
       author_profile: true
