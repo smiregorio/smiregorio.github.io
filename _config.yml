@@ -13,10 +13,10 @@ title                    : "Egor Smirnov - UniMc"
 title_separator          : "-"
 name                     : &name "Egor Smirnov"
 description              : &description "Egor Smirnov's Academic Portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://smiregorio.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://smiregorio.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "smiregorio/smiregorio.github.io/"
+repository               : "smiregorio/smiregorio.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -33,12 +33,12 @@ author:
   email            : "e.smirnov@unimc.it" 
 
   # Academic websites
+  orcid            : "https://orcid.org/0009-0003-3198-7768"
+  googlescholar    : "https://scholar.google.com/citations?user=w79YFtAAAAAJ&hl=en&oi=sra"
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=w79YFtAAAAAJ&hl=en&oi=sra"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0003-3198-7768"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -48,25 +48,26 @@ author:
 
 
   # Repositories and software development
+  github           : "smiregorio"
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "smiregorio"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  artstation       : # Username
+  linkedin         : "smiregorio"
+  instagram        : "smiregorio"
+  twitter          : "smiregorio"
   bluesky          : "smiregorio.bsky.social"
   facebook         : "61579640613496"
+  artstation       : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "smiregorio"
   lastfm           : # Username
-  linkedin         : "smiregorio"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,7 +75,6 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "smiregorio"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -233,6 +233,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  partfolio:
+    output: true
+    permalink: /:collection/:path/
+  trafficking:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -290,6 +296,24 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _partfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _trafficking
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 
 # Sass/SCSS

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page with Dropdown Menu</title>
+	<style>
+	  /* Dropdown Menu Styling */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content a {
+      text-decoration: none;
+      display: block;
+      padding: 5px 0;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+	</style>
+</head>
+<body>
+  <!-- Title -->
+  <h1>Partfolio - Encyclopedia about Political parties in the EU</h1>
+  <!-- UNODC EXAMPLE -->
+  <h2>UNODC EXAMPLE:</h2>
+  <div><a href="unodc_pre-event_package.html">Click Here!</a></div>
+  <!-- Explanation-->
+  <div>
+    The 'Parfolio' dataset is designed for researchers and students who want to gain quick access to the information about 
+    national and European political parties in the EU, given that the data are collected from reliable sources, 
+    as well as anyone who is interested in European politics! The main idea is to create a publicly available collection of data that combines
+    election results, party history, quantitative statistics of parties and party systems, and qualitative research of the party manifestos.
+  </div>
+  <div>
+    The first edition was published on November 23, 2024.
+  </div>
+  <div>
+    Please select a country to study its party system using the dropdown menu below. Each page follows the same pattern: table with the data, 
+    interesting facts about the political system and language, necessary table comments, information about the EU parties, 
+    and the sources that were used.
+  </div>
+  <div>
+    This paragraph was added as an experiment on January 19, 2026.
+  </div>
+  <!-- Dropdown Menu -->
+  <div class="dropdown">
+    <button>Select country </button>
+    <div class="dropdown-content">
+      <a href="denmark.html">Denmark</a>
+      <a href="estonia.html">Estonia</a>
+      <a href="finland.html">Finland</a>
+      <a href="germany.html">Germany</a>
+      <a href="sweden.html">Sweden</a></div></div>
+  <!-- For Reference -->
+	<div>
+	  Author: <b>Egor Smirnov</b>. The version as of October 12, 2025.</div>
+</body>
+</html>

@@ -13,15 +13,21 @@ main:
     
   - title: "Publications"
     url: /publications/
+  
+  - title: "Database 'Partfolio'"
+    url: /partfolio/
+  
+  - title: "Human Trafficking"
+    url: /trafficking/
 
-  - title: "Conferences"
-    url: /talks/    
+#  - title: "Conferences"
+#    url: /talks/    
 
  # - title: "Teaching"
  #   url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+#  - title: "Portfolio"
+#    url: /portfolio/
         
  # - title: "Blog Posts"
  #   url: /year-archive/
