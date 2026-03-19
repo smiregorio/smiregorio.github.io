@@ -25,10 +25,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Egor Smirnov"
-  pronouns         : "he/him"  
+  pronouns         : # text
   bio              : "Þetta reddast (Icelandic): it will all work out eventually"
   location         : "Macerata, Italy"
-  employer         : "University of Macerata"
+  employer         : # text
   uri              : # URL
   email            : "e.smirnov@unimc.it" 
 
