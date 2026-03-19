@@ -23,10 +23,10 @@ repository               : "smiregorio/smiregorio.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Face3.jpeg"
+  avatar           : "images/Face3.jpeg"
   name             : "Egor Smirnov"
   pronouns         : "he/him"  
-  bio              : "Egor is a 2nd-year PhD candidate in Quantitative Methods in Economics, focusing on the definition, measurement, and analysis of economic misinformation, particularly in relation to social media and public opinion."
+  bio              : "Þetta reddast (Icelandic): it will all work out eventually"
   location         : "Macerata, Italy"
   employer         : "University of Macerata"
   uri              : # URL
