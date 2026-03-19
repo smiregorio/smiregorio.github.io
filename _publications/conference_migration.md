@@ -2,9 +2,9 @@
 title: "Migration-related Securitization in the Discourses of the Left and the Right: Italian General Election – 2022"
 collection: publications
 category: conferences
-permalink: /publication/conference_migration
+permalink: /publications/conference_migration
 excerpt: 'This article is dedicated to the research question how public support of Italian parties correlate with the migration-related statistics and how this statistical relation could be affected by the securitization discourse of Italy or migrants.'
-date: 2023
+date: 2023-10-01
 venue: 'Winter Conference of Student Scientific Society: Challenges of Regional and Global Security'
 paperurl: 'https://smiregorio.github.io/files/conference_migration.pdf'
 citation: 'Smirnov, Egor. (2023). &quot;Migration-related Securitization in the Discourses of the Left and the Right: Italian General Election – 2022.&quot; <i>Winter Conference of Student Scientific Society: Challenges of Regional and Global Security</i>.'

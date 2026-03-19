@@ -2,7 +2,7 @@
 title: "The right-wing populist parties in modern Spain and Portugal. Comparative analysis"
 collection: publications
 category: manuscripts
-permalink: /publication/portugal
+permalink: /publications/portugal
 excerpt: 'The article compares the Spanish party Voice (Vox) and the Portuguese “Enough!” (Chega).'
 date: 2024-12-15
 venue: 'Latin America'
