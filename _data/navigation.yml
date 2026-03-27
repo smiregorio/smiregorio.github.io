@@ -19,6 +19,12 @@ main:
   
   - title: "Human Trafficking"
     url: /trafficking/
+  
+  - title: "Experiment1"
+    url: /experiment1/
+  
+  - title: "Experiment2"
+    url: /experiment2/
 
 #  - title: "Conferences"
 #    url: /talks/    

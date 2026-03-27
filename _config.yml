@@ -239,6 +239,9 @@ collections:
   trafficking:
     output: true
     permalink: /:collection/:path/
+  experiment1:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -309,6 +312,15 @@ defaults:
   - scope:
       path: ""
       type: trafficking
+    values:
+      layout: null
+      author_profile: true
+      share: true
+      comment: true
+  # _experiment1
+  - scope:
+      path: ""
+      type: experiment1
     values:
       layout: null
       author_profile: true
